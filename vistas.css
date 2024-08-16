@@ -1,0 +1,41 @@
+/* .verde {
+    background-color: aqua;
+} */
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.a {
+    padding: 30px;
+    background-color: #F48787;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sample {
+    width: 40vw;
+    object-fit: cover;
+}
+
+.laDescipcion {
+    background-color: #FF4763;
+    height: 90%;
+    padding: 20px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    font-size: 16px;
+    color: #1d1c1c;
+}

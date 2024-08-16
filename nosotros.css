@@ -1,0 +1,78 @@
+article {
+    padding: 10px 15px;
+}
+
+.contorno {
+    padding: 0px 10px;
+    margin: 15px 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.imgGallery {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.imgGallerySample {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+    background-color: #FF1D1D;
+    padding: 10px;
+}
+
+.relleno {
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    width: 60dvw;
+    background-color: aquamarine;
+}
+
+.rellenoPie {
+    margin-inline: auto;
+}
+
+.left {
+    float:right;
+}
+
+.ladoDerecho {
+    display: flex;
+    flex-direction: column;
+}
+
+.bolitas {
+    display: flex;
+    gap: 20px;
+    margin: 15px 0px;
+    padding: 0px 10px;
+    margin-left: 30px;
+}
+
+.bolita1 {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.bolita2 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.bolita3 {
+    width: 50px;
+    height: 50px;
+    background-color: coral;
+    border-radius: 50%;
+}

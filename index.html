@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La fábrica de sabores</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="img/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/b137ce8bc7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="/i">
+            <img src="/img/logo.png" alt="LOGO" class="principalLogo">
+        </a>
+        <form action="#" accept-charset="UTF-8" role="search" method="get" class="formSearch">
+            <label for="search">
+                <i class="fa-solid fa-magnifying-glass fa-xl" id="glass"></i>
+            </label>
+            <input type="text" name="search" id="search" placeholder="Buscador">
+        </form>
+        <ul class="headerList">
+            <li class="headerLinks">
+                <a href="/help.html">
+                    <i class="fa-solid fa-headset fa-xl"></i>
+                </a>
+            </li>
+            <li class="headerLinks">
+                <a href="/favoritos.html">
+                    <i class="fa-regular fa-heart fa-xl"></i>
+                </a>
+            </li>
+            <li class="headerLinks">
+                <i class="fa-solid fa-cart-shopping fa-xl car"></i>
+            </li>
+            <li class="headerLinks">
+                <a href="/login.html">
+                    <i class="fa-solid fa-user fa-xl"></i>
+                </a>
+            </li>
+            <li class="headerLinks">
+                <a href="/login.html" id="login">
+                    Iniciar sesión
+                </a>
+            </li>
+        </ul>
+    </header>
+    <nav>
+        <li class="listClass">Menú</li>
+        <li class="listClass">Eventos</li>
+        <li class="listClass">Personalizados</li>
+    </nav>
+    <main>
+        <aside class="carrousel">
+            <div class="imagen fade">
+                <img src="/img/apartadoPromociones01.png" alt="Promociones" class="promos">
+            </div>
+            <div class="imagen fade">
+                <img src="/img/apartadoPromociones02.png" alt="Promociones" class="promos">
+            </div>
+            <div class="imagen fade">
+                <img src="/img/apartadoPromociones03.png" alt="Promociones" class="promos">
+            </div>
+            <div class="imagen fade">
+                <img src="/img/apartadoPromociones04.png" alt="Promociones" class="promos">
+            </div>
+                <a class="anterior" onclick="push(-1)">&#10094</a>
+                <a class="siguiente" onclick="push(1)">&#10095</a>
+        </aside>
+        <section>
+            <h2 class="first">Más vendidos</h2>
+            <div class="samples flexg">
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="sampleSlides">
+                    <a href="/vistas.html">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <img src="/img/sampleImg.jpg" alt="Torta" class="sampleImg">
+                        <div class="heartext">
+                            <i class="fa-regular fa-heart heart"></i>
+                            <h5 class="nameCake">
+                                Torta de coco rayado
+                            </h5>
+                        </div>
+                        <div class="portPrice">
+                            <span class="portions">
+                                30 porciones
+                            </span>
+                            <span class="price">
+                                S/ 45.00
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h4 class="footerTitle">
+                La Fabrica de sabores
+            </h4>
+            <div class="icons">
+            <a href="https://www.facebook.com/?locale=es_LA" class="facebook">
+                <i class="fa-brands fa-facebook spaceInsite"></i>
+            </a>
+            <a href="https://www.youtube.com/" class="youtube">
+                <i class="fa-brands fa-youtube spaceInsite"></i>  
+            </a>
+            <a href="https://www.instagram.com/?hl=es" class="instagram">
+                <i class="fa-brands fa-instagram spaceInsite"></i>    
+            </a>
+            <a href="https://pe.linkedin.com/" class="linkedin">
+                <i class="fa-brands fa-linkedin spaceInsite"></i>    
+            </a>
+            </div>
+        </div>
+        <div>
+            <p class="paragrahFooter itemF">
+                Acerca de
+            </p>
+            <a href="/terminos.html">
+                <li class="itemF">
+                    Términos y condiciones
+                </li>
+            </a>
+            <a href="/tiposPago.html">
+                <li class="itemF">
+                    Tipos de pago
+                </li>
+            </a>
+        </div>
+        <div>
+            <p class="paragrahFooter itemF">
+                Conócenos 
+            </p>
+            <a href="/nosotros.html">
+                <li class="itemF">
+                    Blog
+                </li>
+            </a>
+            <a href="/personalizar.html">
+                <li class="itemF">
+                    Como personalizar
+                </li>
+            </a>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>

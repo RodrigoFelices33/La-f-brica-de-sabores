@@ -1,0 +1,329 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter", "League Spartan", sans-serif;
+}
+
+:root {
+    --size: 4px;
+    --primary-color: #ffaebd;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter';
+    background-color: var(--primary-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #DB5275, #db527472);
+}
+
+nav {
+    display: flex;
+    background-color: #FFA8BE;
+    height: calc(var(--size) * 8.75);
+    gap: calc(var(--size) * 12);
+    padding: calc(var(--size) * 1.25) calc(var(--size) * 5);
+}
+
+h2 {
+    color: #56091F;
+    font-size: calc(var(--size) * 16);
+    font-weight: 700;
+}
+
+label {
+    min-height: max-content;
+    min-width: max-content;
+}
+
+a {
+    color: #222;
+    display: inline;
+}
+
+.promos {
+    width: 100%;
+    transition: right 3s ease infinite;
+}
+
+header>ul>li>a {
+    color: #FFF;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+header>ul>li :hover {
+    color: rgb(193, 8, 8);
+}
+
+nav > li {
+    font-size: calc(var(--size) * 4);
+    font-weight: 500;
+}
+
+
+.principalLogo {
+    width: calc(var(--size) * 15);
+    margin: 0px 20px;
+}
+
+input {
+    border-radius: calc(var(--size) * 2.5);
+    border: transparent;
+    background: #ffffff00;
+}
+
+.headerList {
+    display: flex;
+    gap: calc(var(--size) * 6);
+}
+
+.formSearch {
+    display: flex;
+    align-items: center;
+    float: none;
+    background: #ffffffae;
+    border-radius: 10px;
+    padding: 10px;
+
+    @media (width <= 786px) {
+        display: none;
+    }
+}
+
+.headerLinks {
+    display: inline-block;
+    flex-direction: column;
+    font-family: Impact;
+    font-size: calc(var(--size) * 4);
+}
+
+.car {
+    color: #fff;
+}
+
+.principalLogo {
+    margin: 5px 40px;
+}
+
+#login {
+    color: #FFF;
+    background-color: #56091F;
+    border-radius: 5px;
+    padding: calc(var(--size) * 2.5) calc(var(--size) * 5);
+    margin: 20px;
+    font-weight: 300;
+}
+
+@media (width <= 786px) {
+    #login {
+        display: none;
+    }
+    
+}
+
+#glass {
+    display: inline-block;
+    height: max-content;
+    cursor: pointer;
+}
+
+#search {
+    padding: 8px 16px;
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+.anterior, .siguiente {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -75px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.siguiente {
+    right: 0;
+}
+
+.anterior:hover, .siguiente:hover {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 0 5px 5px 0;
+    transition: 1s ease;
+}
+
+.siguiente:hover {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.fade {
+    animation: fade 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: .9;
+    }
+}
+
+.first {
+    margin: 25px;
+}
+
+.sampleSlides {
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.250);
+    position: relative;
+    background-color: #fae6eb;
+    cursor: pointer;
+}
+
+.flexg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.sampleImg {
+    width: 100%;
+    height: calc(var(--size) * 50);
+    margin-bottom: 10px;
+    /* border: solid #db5275 5px; */
+}
+
+.heartext { 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.heart {
+    color: red;
+    padding: calc(var(--size) * 2.5);   
+    background-color: #FFA8BE;
+    border-radius: 50%;
+    width: calc(var(--size) * 12.5);
+    height: calc(var(--size) * 12.5);
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.nameCake {
+    text-transform: uppercase; 
+    font-size: calc(var(--size) * 5);
+}
+
+.portPrice {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    gap: 20px;
+}
+
+.portions {
+    padding: 0 5px 0 10px;
+    margin-top: 20px;
+}
+
+.price {
+    font-size: calc(var(--size) * 7.5);
+    font-weight: 800;
+    color: #222;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 35px;
+}
+
+.footerTitle {
+    font-size: 24px;
+}
+
+.paragrahFooter {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.spaceInsite {
+    padding: 20px;
+    font-size: 25px;
+    color: #222222c7;
+}
+
+.carrousel {
+    width: 100%;
+}
+
+section {
+    padding: 20px 25px;
+}
+
+.itemF {
+    padding-bottom: 10px;
+}
+
+.plus {
+    background-color: #56091F;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    padding: 16px;
+
+    @media (width <= 768px) {
+        display: none;
+    }
+}
+
+.facebook :hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.instagram :hover {
+    color: #E4405F;
+    cursor: pointer;
+}
+
+.linkedin :hover{
+    color: #0e76a8;
+    cursor: pointer;
+}
+
+.youtube :hover{
+    color: #c4302b;
+    cursor: pointer;
+}
